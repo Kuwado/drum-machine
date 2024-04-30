@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+#drum-machine {
+  margin: 50px auto;
+  width: 400px;
+  border: 2px solid #333;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+#display {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.drum-pads {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.drum-pad {
+  border: 1px solid #666;
+  border-radius: 5px;
+  padding: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.drum-pad:hover {
+  background-color: #ddd;
+}
